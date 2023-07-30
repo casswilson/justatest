@@ -1,0 +1,92 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+   
+  <link rel="stylesheet" href="css/css.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" >
+<title>BIZZ QR</title>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-30P0TT31DQ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-30P0TT31DQ');
+</script>
+</head>
+
+  <div class="header" >
+<nav>
+  <img src="LOGO.png" href="index.html" alt="company logo" class="logo">
+  <ul class="nav-link">
+    <li><a href="signup.html">Signup</a></li>
+    <li><a href="">/</a></li>
+    <li><a href="index.html">Home</a></li>
+    
+  </ul>
+</nav>
+
+
+</div> 
+
+<div class="content" >
+ <div class="viewcontent">
+ <form class="form-box">
+  <h1 id="pagetitle">BIZZQR  LOGIN </h1><br>
+  <div> 
+    <img src="images/profile.jpg" alt="Girl in a jacket" style="width:200px;height:200px;">  </div>
+  <div>
+    <label for="email" style="text-align: left;">Email:</label>
+    <input type="text" class="inputvcard" id="email" placeholder="">
+  </div>
+
+  <div>
+    <label for="password" style="text-align: left;">Password:</label>
+    <input type="password" class="inputvcard" id="password" placeholder="">
+  </div>
+  <div id="error-message" style="color: red;"></div>
+<div> Not a member? <a href="signup.html">Sign up</a>
+</div>
+  <div>
+    <button class="button" onclick="login()" id="savebutton" type="button">Login</button>  </div>
+</form>
+</div>
+</div>
+</body>
+
+<footer>
+  <div class="footerContainer">
+    
+    <div class="socialIcons">
+      <a href=""><i class="fa fa-facebook"></i> </a>
+      <a href=""><i class="fa fa-twitter"></i></a>
+      <a href=""><i class="fa fa-instagram"></i> </a>
+      <a href=""><i class="fa fa-google-plus"></i> </a>
+      <a href=""><i class="fa fa-youtube"></i> </a>
+
+    </div>
+    <div class="footerNav">
+      <ul>
+          <li> <a href="">Home</a></li>
+          <li> <a href="">About</a></li>
+          <li> <a href="">Contact Us</a></li>
+          <li> <a href="">Our Team</a></li>
+          <li> <a href="">FAQ</a></li>
+
+      </ul>
+    </div>
+   
+  </div>
+  <div class="footerBottom">
+    <p>Copyright &copy;2023: Designed by <span class="designer">Group 15</span></p>
+
+  </div>
+</footer>
+<script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-auth.js"></script>
+<script src="scripts/config.js"></script>
+<script src="scripts/auth.js"></script>
+<script src="scripts/userdata.js"></script>
+
+</html>
